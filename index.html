@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KJM.DEV — Kim Jung Min</title>
+  <link rel="stylesheet" href="main.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ════════════════════════════════
+  HEADER
+════════════════════════════════ -->
+<header class="site-header" id="siteHeader">
+  <a class="logo" href="#hero">DUWJD.25</a>
+  <nav class="desktop-nav">
+    <a href="#about"    class="dnav">ARCHIVE</a>
+    <a href="#record"    class="dnav">EXPERIENCE</a>
+    <a href="#tracks"   class="dnav">LAB</a>
+    <a href="#contact"  class="dnav">CONTACT</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+</header>
+
+<!-- 전체화면 오버레이 내비게이션 -->
+
+<div class="nav-overlay" id="navOverlay">
+  <button class="overlay-close" id="overlayClose" aria-label="메뉴 닫기">✕</button>
+  <nav class="overlay-nav">
+    <a href="#hero"     class="onav" data-close>HOME</a>
+    <a href="#about"    class="onav" data-close>ARCHIVE</a>
+    <a href="#record"    class="onav" data-close>EXPERIENCE</a>
+    <a href="#tracks"   class="onav" data-close>LAB</a>
+    <a href="#github"   class="onav" data-close>RELEASES</a>
+    <a href="#contact"  class="onav" data-close>CONTACT</a>
+  </nav>
+  <div class="overlay-footer">© 2026 KIM JUNG MIN</div>
+</div>
+
+
+<!-- ════════════════════════════════
+  SECTION 1: HERO
+════════════════════════════════ -->
+<section class="section" id="hero">
+
+
+  <div class="hero-inner">
+    <div class="hero-title-wrap">
+      <h1 class="hero-title">
+        <span class="ht-white hero-anim" style="--delay:0s">PORTFOLIO</span>
+        <span class="ht-purple hero-anim" style="--delay:0.5s">/ KIM JUNG MIN</span>
+      </h1>
+    </div>
+    <div class="hero-sub-wrap hero-anim" style="--delay:1s">
+      <div class="hero-border-left"></div>
+      <div>
+        <p class="hero-desc">
+          안전한 모빌리티의 기반을 설계하는<br>
+          <strong>백엔드 및 자동차 보안 개발자</strong>, 김정민입니다.
+        </p>
+        <div class="hero-tags">
+          <span class="htag">SECURITY</span>
+          <span class="htag-dot">·</span>
+          <span class="htag">BACKEND</span>
+          <span class="htag-dot">·</span>
+          <span class="htag">AUTOMOTIVE</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue hero-anim" style="--delay:1.5s">
+      <span class="sc-text">SCROLL TO TUNE</span>
+      <div class="sc-line"></div>
+    </div>
+  </div>
+  
+<div class="hero-fixed-img">
+  <div class="id-card-scene">
+    <img src="id22.PNG" alt="ID Card" class="id-card-img"/>
+    <div class="id-card-flipper">
+
+      <!-- 앞면: 완전히 빈 카드 -->
+      <div class="id-card-front">
+        <div class="id-card-lanyard"></div>
+      </div>
+
+      <!-- 뒷면: 디자인 카드 -->
+      <div class="id-card-back">
+        <div class="id-cb-top">
+          <div class="id-cb-name">Kim<br>Jung Min</div>
+          <div class="id-cb-meta">
+            <div class="id-cb-col">
+              <span class="id-cb-label">ROLE</span>
+              <span class="id-cb-val">Back-End Engineer</span>
+            </div>
+            <div class="id-cb-col">
+              <span class="id-cb-label">DEPT</span>
+              <span class="id-cb-val">Security &amp; Infra</span>
+            </div>
+          </div>
+        </div>
+        <div class="id-cb-geo">
+          <svg viewBox="0 0 200 160" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="200" height="160" fill="#A78BFA"/>
+            <!-- J -->
+            <rect x="16" y="14" width="52" height="22" fill="#fff"/>
+            <rect x="46" y="14" width="22" height="100" fill="#fff"/>
+            <rect x="16" y="92" width="52" height="22" fill="#fff"/>
+            <rect x="16" y="70" width="22" height="44" fill="#fff"/>
+            <!-- M -->
+            <rect x="88" y="14" width="22" height="100" fill="#fff"/>
+            <rect x="164" y="14" width="22" height="100" fill="#fff"/>
+            <polygon points="88,14 110,14 137,62 110,62" fill="#fff"/>
+            <polygon points="186,14 164,14 137,62 164,62" fill="#fff"/>
+          </svg>
+          <div class="id-cb-foot">
+            <span class="id-cb-emp"> 25018020</span>
+            <span class="id-cb-reg">®</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ════════════════════════════════
+  SECTION 2: ABOUT — MASTER VOLUME
+════════════════════════════════ -->
+<section class="section about-section" id="about">
+  <div class="about-inner">
+
+    <!-- 좌: LP 자켓 + 디스크 슬라이드 -->
+    <div class="about-left">
+      <p class="sec-label">01. MASTER VOLUME</p>
+      <div class="lp-jacket-wrap" id="lpJacketWrap">
+        <div class="lp-jacket">
+          <div class="jacket-body">
+            <span class="jacket-num">01</span>
+          </div>
+          <!-- LP 디스크: 스크롤하면 오른쪽으로 슬라이드 -->
+          <img src="mainlp.png" alt="LP Disc" class="lp-disc-slide" id="lpDisc"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- 우: 소개 + 믹서 콘솔 -->
+    <div class="about-right">
+      <blockquote class="about-quote">
+        "단단한 시스템 인프라 구축과 철저한 프로토콜 분석 <br>
+        가상화 환경에서의 Linux 인프라 관리부터 임베디드 핵심 제어, <br>
+        그리고 안정적인 Spring Boot 백엔드 아키텍처 설계까지- <br>
+        시스템의 모든 계층을 연결하고 조화를 이루는 개발자" <br>
+      </blockquote>
+
+      <!-- 오디오 믹서 콘솔 -->
+      <div class="mixer-console" id="mixerConsole">
+        <div class="mixer-channel" data-level="85">
+          <p class="ch-label">CH 1</p>
+          <div class="fader-track">
+            <div class="fader-fill" id="fader0"></div>
+            <div class="fader-knob" id="knob0"></div>
+          </div>
+          <p class="ch-name">C/C++</p>
+          <p class="ch-sub">EMBEDDED &amp; CAN</p>
+        </div>
+        <div class="mixer-channel" data-level="75">
+          <p class="ch-label">CH 2</p>
+          <div class="fader-track">
+            <div class="fader-fill" id="fader1"></div>
+            <div class="fader-knob" id="knob1"></div>
+          </div>
+          <p class="ch-name">PYTHON</p>
+          <p class="ch-sub">AUTO &amp; SEC</p>
+        </div>
+        <div class="mixer-channel" data-level="70">
+          <p class="ch-label">CH 3</p>
+          <div class="fader-track">
+            <div class="fader-fill" id="fader2"></div>
+            <div class="fader-knob" id="knob2"></div>
+          </div>
+          <p class="ch-name">JAVA</p>
+          <p class="ch-sub">SPRING BOOT</p>
+        </div>
+        <div class="mixer-channel" data-level="65">
+          <p class="ch-label">CH 4</p>
+          <div class="fader-track">
+            <div class="fader-fill" id="fader3"></div>
+            <div class="fader-knob" id="knob3"></div>
+          </div>
+          <p class="ch-name">LINUX</p>
+          <p class="ch-sub">SYS &amp; LVM</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════
+  SECTION 3: RECORD TRACK
+════════════════════════════════ -->
+<section class="section record-section" id="record">
+  <p class="sec-label">02. RECORD TRACK</p>
+  <div class="rack-list" id="rackList">
+
+    <div class="rack-item" data-idx="0">
+      <div class="rack-header">
+        <span class="rack-letter">A</span>
+        <div class="rack-title-wrap">
+          <h3 class="rack-title">Embedded &amp; Security</h3>
+          <p class="rack-summary">"하드웨어와 소프트웨어의 접점에서 보안을 먼저 생각합니다."</p>
+        </div>
+        <span class="rack-plus">+</span>
+      </div>
+      <div class="rack-body">
+        <ul class="rack-details">
+          <li>CAN 통신 프로토콜 분석 및 데이터 파싱 역량</li>
+          <li>암호화 알고리즘 기반의 보안 제어 로직 설계</li>
+          <li>임베디드 타깃 환경 최적화 (AES-128 C 구현)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="rack-item" data-idx="1">
+      <div class="rack-header">
+        <span class="rack-letter">B</span>
+        <div class="rack-title-wrap">
+          <h3 class="rack-title">Backend &amp; Architecture</h3>
+          <p class="rack-summary">"확장 가능하고 견고한 서버 생태계를 구축합니다."</p>
+        </div>
+        <span class="rack-plus">+</span>
+      </div>
+      <div class="rack-body">
+        <ul class="rack-details">
+          <li>Spring Boot 기반의 비즈니스 로직 설계</li>
+          <li>Gradle 시스템을 활용한 의존성 관리 최적화</li>
+          <li>효율적인 데이터 구조 및 API 명세 설계</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="rack-item" data-idx="2">
+      <div class="rack-header">
+        <span class="rack-letter">C</span>
+        <div class="rack-title-wrap">
+          <h3 class="rack-title">Infrastructure &amp; Virtualization</h3>
+          <p class="rack-summary">"독립적이고 안전한 로컬 인프라를 직접 제어합니다."</p>
+        </div>
+        <span class="rack-plus">+</span>
+      </div>
+      <div class="rack-body">
+        <ul class="rack-details">
+          <li>Linux LVM 기반 파티셔닝 및 디스크 스토리지 관리</li>
+          <li>Docker 가상화를 통한 격리된 네트워크 및 서비스 배포</li>
+          <li>오프라인 로컬 인프라 제어</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════
+  SECTION 4: FUTURE TRACKS (CD 갤러리)
+════════════════════════════════ -->
+<section class="section tracks-section" id="tracks">
+  <p class="sec-label">03. FUTURE TRACKS</p>
+  <div class="carousel-wrap">
+    <button class="car-btn car-btn-prev" id="carBtnPrev">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="19,5 9,12 19,19" fill="currentColor"/>
+        <rect x="5" y="5" width="3" height="14" fill="currentColor"/>
+      </svg>
+    </button>
+    <div class="carousel-track" id="carouselTrack">
+      <div class="car-item" data-msg="차량 내부 네트워크(In-Vehicle Network) 인프라 보안 고도화">
+        <div class="car-img-wrap">
+          <img src="sublp1.jpg" alt="Track 01" class="car-img"/>
+          <div class="car-overlay">
+            <span class="car-track-label">TRACK 01</span>
+            <p class="car-text-inner">차량 내부 네트워크(In-Vehicle Network)<br>인프라 보안 고도화</p>
+          </div>
+        </div>
+      </div>
+      <div class="car-item" data-msg="Spring Cloud 기반의 대용량 트래픽 분산 처리 및 최적화 연구">
+        <div class="car-img-wrap">
+          <img src="sublp2.jpg" alt="Track 02" class="car-img"/>
+          <div class="car-overlay">
+            <span class="car-track-label">TRACK 02</span>
+            <p class="car-text-inner">Spring Cloud 기반의 대용량 트래픽 분산<br>처리 및 최적화 연구</p>
+          </div>
+        </div>
+      </div>
+      <div class="car-item" data-msg="임베디드 제어 장치의 펌웨어 무결성 검증 아키텍처 설계">
+        <div class="car-img-wrap">
+          <img src="sublp3.jpg" alt="Track 03" class="car-img"/>
+          <div class="car-overlay">
+            <span class="car-track-label">TRACK 03</span>
+            <p class="car-text-inner">임베디드 제어 장치의 펌웨어 무결성<br>검증 아키텍처 설계</p>
+          </div>
+        </div>
+      </div>
+      <div class="car-item" data-msg="Linux 커널 레벨 시스템 분석을 통한 제로데이 취약점 방어">
+        <div class="car-img-wrap">
+          <img src="sublp4.jpg" alt="Track 04" class="car-img"/>
+          <div class="car-overlay">
+            <span class="car-track-label">TRACK 04</span>
+            <p class="car-text-inner">Linux 커널 레벨 시스템 분석을 통한<br>제로데이 취약점 방어</p>
+          </div>
+        </div>
+      </div>
+      <div class="car-item" data-msg="CI/CD 자동화 파이프라인 구축을 통한 안정적인 배포 프로세스 수립">
+        <div class="car-img-wrap">
+          <img src="sublp5.jpg" alt="Track 05" class="car-img"/>
+          <div class="car-overlay">
+            <span class="car-track-label">TRACK 05</span>
+            <p class="car-text-inner">CI/CD 자동화 파이프라인 구축을 통한<br>안정적인 배포 프로세스 수립</p>
+          </div>
+        </div>
+      </div>
+      <div class="car-item" data-msg="보안성과 성능의 트레이드오프를 최소화하는 경량 암호 프로토콜 최적화">
+        <div class="car-img-wrap">
+          <img src="sublp6.jpg" alt="Track 06" class="car-img"/>
+          <div class="car-overlay">
+            <span class="car-track-label">TRACK 06</span>
+            <p class="car-text-inner">보안성과 성능의 트레이드오프를 최소화하는<br>경량 암호 프로토콜 최적화</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="car-btn car-btn-next" id="carBtnNext">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="5,5 15,12 5,19" fill="currentColor"/>
+        <rect x="16" y="5" width="3" height="14" fill="currentColor"/>
+      </svg>
+    </button>
+    <div class="carousel-dots" id="carouselDots"></div>
+    <div class="track-display" id="trackDisplay">
+      <p class="td-msg" id="tdMsg"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════
+  SECTION 5: GITHUB ARCHIVE
+════════════════════════════════ -->
+<section class="section github-section" id="github">
+  <div class="github-inner">
+    <div class="github-header">
+      <p class="sec-label">04. RELEASES</p>
+      <h2 class="gh-title">오픈소스 아카이브</h2>
+      <p class="gh-sub">GitHub API를 통해 실시간으로 업데이트되는 개발 기록이자, 매일 빌드되는 기술적 자산입니다.</p>
+      <span class="gh-badge" id="ghBadge">● 연동 중...</span>
+    </div>
+    <div class="gh-grid" id="ghGrid">
+      <div class="gh-loading">
+        <div class="gh-spinner"></div>
+        <p>저장소 로딩 중...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════
+  SECTION 6: CONTACT — OUTRO
+════════════════════════════════ -->
+<section class="section contact-section" id="contact">
+  <div class="contact-inner">
+    <p class="sec-label light">05. OUTRO</p>
+    <div class="record-label-wrap">
+      <img src="cd_case.PNG" alt="CD Case" class="record-cd-img"/>
+    </div>
+  <div class="contact-links">
+    <a href="mailto:duwjd1025@naver.com" class="contact-link">
+      <span class="cl-icon">✉</span>
+      <span class="cl-text">duwjd1025@naver.com</span>
+    </a>
+    <div class="cl-divider"></div>
+    <a href="https://instagram.com/0umin_25" target="_blank" class="contact-link">
+      <span class="cl-icon">◎</span>
+      <span class="cl-text">@0umin_25</span>
+    </a>
+  </div>
+</div>
+  </div>
+  <footer class="site-footer">
+    © 2026 KIM JUNG MIN. 
+  </footer>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
